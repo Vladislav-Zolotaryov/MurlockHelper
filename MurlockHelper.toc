@@ -1,0 +1,8 @@
+## Interface: 110000
+## Version: 1.0.0
+## Title: Murlok Helper
+## Notes: Easy access to Murlok.io data in game
+## Author: Rofgar Aivenmayer
+
+Stats.lua
+MurlockHelper.lua
