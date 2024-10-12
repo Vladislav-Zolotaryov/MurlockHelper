@@ -47,7 +47,7 @@ for class_name, specs in class_stats_from_api.items():
     }}""".format(class_name=class_name.replace("-", "_"), specs_lua=",\n".join(specs_lua))
     classes_lua.append(class_lua)
 
-final_lue = "local addonName, addonTable = ...;\naddonTable.classes_stats = {\n" + ",\n".join(classes_lua) + "\n}"
+final_lue = "local _, addonTable = ...;\naddonTable.classes_stats = {\n" + ",\n".join(classes_lua) + "\n}"
 
 with open('Stats.lua', 'w') as fp:
     fp.write(final_lue)
