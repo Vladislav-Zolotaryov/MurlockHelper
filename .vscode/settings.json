@@ -15,7 +15,6 @@
         "~/.vscode-oss/extensions/ketho.wow-api-0.17.6/Annotations"
     ],
     "Lua.diagnostics.globals": [
-        "class",
-        "stats"
+        "SlashCmdList"
     ]
 }
